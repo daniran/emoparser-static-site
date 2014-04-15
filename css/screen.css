@@ -1,25 +1,43 @@
-body, html { margin: 0; padding: 0; }
 
-body { font-family: sans-serif; color: black; background: white; }
-a { color: black; }
-a:hover { color: red; }
+#text-input {
+    margin: 20px 0 20px 0;
+}
 
-#container { }
+.well {
+    margin-top: 20px;
+}
 
-#header { text-align: center; }
-#header h1 { }
-#header img { width: 600px; }
+.emo-class {
+    background: url('/img/emoticons.gif') no-repeat -6px -28px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+}
 
-#navigation { display: none; }
+.emoticon-smile {
+    background-position: -6px -28px;
+}
 
-#main { width: 500px; margin: 0 auto; margin-top: 50px; padding-bottom: 80px; }
-#main h2 { }
-#main p { }
+.emoticon-surprised {
+    background-position: -7px -54px;
+}
 
-#footer { display: none; }
+.emoticon-wink {
+    background-position: -7px -79px;
+}
 
-#socialmedia { overflow: hidden; }
-#socialmedia div { display: block; margin-top: 10px; }
-#socialmedia .google { }
-#socialmedia .twitter { }
-#socialmedia .facebook { }
+.emoticon-confused {
+    background-position: -7px -104px;
+}
+
+.emoticon-crying {
+    background-position: -7px -129px;
+}
+
+.emoticon-h {
+    background-position: -7px -154px;
+}
+
+.emoticon-a {
+    background-position: -8px -179px;
+}
