@@ -24,11 +24,9 @@ $(function() {
             },
 
             h: {
-                emos: [':)', ':-)']
             },
 
             a: {
-                emos: [':)', ':-)']
             }
         },
         emoticon_html: '<span class="emo-class emoticon-{EMOTICON}" title="{EMOTICON}"></span>'
